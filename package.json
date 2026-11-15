@@ -1,0 +1,16 @@
+{
+  "name": "songshan-notice",
+  "version": "1.0.0",
+  "description": "松山社大公告監控 → Email 通知",
+  "main": "check.js",
+  "scripts": {
+    "check": "node check.js",
+    "start": "node scheduler.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "node-cron": "^4.6.0"
+  }
+}
